@@ -16,3 +16,8 @@ h1{
 .foto-tim {
     font-size: small;
 }
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
