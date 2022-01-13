@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+#intestazione {
+    background-image: url("../img/pattern.png");
+    background-color: #4ea0ff;
+    height: 180px;
+}
+
+.centratura, main, footer{
+    width: 55%;
+    margin: auto;
+}
+
+#logo {
+    height: 100px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.grigio {
+    color: gray;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#data {
+    font-size: small;
+}
+
+.foto-tim {
+    font-size: small;
+    margin: 20px 0;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+th {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.azzurro {
+    background-color: #b1e5f2;
+}
+
+.consiglio {
+    width: 311px;
+    height: 207px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#primo-consiglio {
+    background-image: url("../img/monitor.jpg");
+}
+
+#secondo-consiglio {
+    background-image: url("../img/graph.jpg");
+}
+
+footer>h3 {
+    color: darkgrey;
+}
