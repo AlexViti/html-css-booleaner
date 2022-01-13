@@ -21,3 +21,12 @@ ul{
     list-style-position: inside;
     padding-left: 0;
 }
+
+th{
+    background-color: #20a9e5;
+    color: white;
+}
+
+.azzurro{
+    background-color: #b1e5f2;
+}
