@@ -15,6 +15,7 @@
 
 h1 {
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 .grigio {
@@ -35,6 +36,11 @@ a:visited {
 
 .foto-tim {
     font-size: small;
+    margin: 20px 0;
+}
+
+.evidenziato {
+    background-color: yellow;
 }
 
 ul{
@@ -42,16 +48,20 @@ ul{
     padding-left: 0;
 }
 
-th{
+table {
+    border-collapse: collapse;
+}
+
+th {
     background-color: #20a9e5;
     color: white;
 }
 
-.azzurro{
+.azzurro {
     background-color: #b1e5f2;
 }
 
-.consiglio{
+.consiglio {
     width: 311px;
     height: 207px;
     font-size: x-large;
@@ -67,4 +77,8 @@ th{
 
 #secondo-consiglio {
     background-image: url("../img/graph.jpg");
+}
+
+footer>h3 {
+    color: darkgrey;
 }
